@@ -117,8 +117,8 @@ smd({ on: "status" }, async (message, text) => {
 
 smd(
   {
-    cmdname: "checkbyteuser",
-    desc: "total Users Currently using Byte",
+    cmdname: "checkeviluser",
+    desc: "total Users Currently using Evil md",
   },
   async (message, text) => {
     try {

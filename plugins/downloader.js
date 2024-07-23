@@ -1411,7 +1411,7 @@ smd(
          );
        }
  
-       const apiUrl = "https://aemt.me/download/tiktokdl?url=";
+       const apiUrl = "https://api.prabath-md.tech/api/tiktokdl?url=";
        const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
        const data = await response.json();
  
@@ -1509,7 +1509,7 @@ smd(
          );
        }
  
-       const apiUrl = "https://aemt.me/download/tiktokdl?url=";
+       const apiUrl = "https://api.prabath-md.tech/api/tiktokdl?url=";
        const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
        const data = await response.json();
  

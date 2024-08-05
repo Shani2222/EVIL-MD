@@ -16,6 +16,9 @@
    "author": "Dark Evil",
    "license": "Apache-2.0",
    "dependencies": {
+      "@distube/ytdl-core": "^4.13.5",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@google/generative-ai": "^0.9.0",
       "@adiwajshing/keyed-db": "^0.2.4",
       "@hapi/boom": "^9.1.4",
       "@whiskeysockets/baileys": "6.6.0",
@@ -63,7 +66,7 @@
       "util": "^0.12.4",
       "wa-sticker-formatter": "^4.3.2",
       "youtubei.js": "^7.0.0",
-      "ytdl-core": "^4.11.5",
+      "ytdl-core": "github:franceking1/flash-dls",
       "ytdl-secktor": "^0.0.1-development"
    },
    "directories": {

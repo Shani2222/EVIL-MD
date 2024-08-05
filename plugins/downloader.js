@@ -14,7 +14,7 @@ const {
    download
  } = require("aptoide-scraper");
  const googleTTS = require("google-tts-api");
- const ytdl = require("@distube/ytdl-core");
+ const ytdl = require("ytdl-secktor");
  const yts = require("secktor-pack");
  const fs = require("fs-extra");
  const axios = require("axios");
@@ -75,7 +75,7 @@ const {
 *Followers:* ${followers}
 *Following:* ${following}
 
-\t*EVIL MD IG STALKER*
+\t*EVIL IG STALKER*
 `;
 
       await m.bot.sendFromUrl(m.from, photo_profile, caption, m, {}, "image");
@@ -702,7 +702,7 @@ smd(
        return await m.send("*_Please provide an Instagram URL!_*");
      }
  
-     const apiUrl = `https://api.maher-zubair.tech/download/instagram?url=${encodeURIComponent(url)}`;
+     const apiUrl = `https://api-smd.onrender.com/api/igdl?url=${encodeURIComponent(url)}`;
      const response = await fetch(apiUrl);
  
      if (!response.ok) {
@@ -1198,12 +1198,12 @@ smd(
    desc: "text to speech.",
    category: "downloader",
    filename: __filename,
-   use: "<Hii,this is Asta>"
+   use: "<Hii,this is Evil>"
  }, async (_0x55aba2, _0x56da6b) => {
    try {
      let _0x204f81 = _0x55aba2.reply_text ? _0x55aba2.reply_text : _0x56da6b;
      if (!_0x204f81) {
-       return _0x55aba2.reply("*_Example : .tts Hi,I am EVIL-Md whatsapp bot._*");
+       return _0x55aba2.reply("*_Example : .tts Hi,I am EVIL-MD whatsapp bot._*");
      }
      try {
        let _0x1974d5 = _0x56da6b ? _0x56da6b.split(" ")[0].toLowerCase() : "en";
@@ -1347,7 +1347,7 @@ smd(
  }
  smd({
    pattern: "sound",
-    alias: ["evil", "aine","mentalism","alive","waso"],
+    alias: ["evil", "aine","mentalism","alive","darkevil"],
    desc: "Downloads ringtone.",
    category: "downloader",
    filename: __filename,
@@ -1399,7 +1399,7 @@ smd(
  
        if (!url) {
          return await message.reply(
-           `*Uhh Please, Provide me tiktok Video Url*\n*_Ex ${prefix}tiktok https://www.tiktok.com/@dakwahmuezza/video/7150544062221749531_*`
+           `*Uhh Please, Provide me tiktok Video Url*\n*_Ex ${prefix}tiktok https://www.tiktok.com/@dark-evil/video/7150544062221749531_*`
          );
        }
  
@@ -1411,7 +1411,7 @@ smd(
          );
        }
  
-       const apiUrl = "https://aemt.me/download/tiktokdl?url=";
+       const apiUrl = "https://api-smd.onrender.com/api/ttdl2?url=";
        const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
        const data = await response.json();
  
@@ -1442,7 +1442,7 @@ smd(
      try {
        if (!url) {
          return await message.reply(
-           `*Uhh Please, Provide me tiktok Video Url*\n*_Ex ${prefix}tiktok https://www.tiktok.com/@dakwahmuezza/video/7150544062221749531_*`
+           `*Uhh Please, Provide me tiktok Video Url*\n*_Ex ${prefix}tiktok https://www.tiktok.com/@dark-evil/video/7150544062221749531_*`
          );
        }
  
@@ -1453,7 +1453,7 @@ smd(
          );
        }
  
-       const apiUrl = `https://aemt.me/download/tiktokdl?url=${encodeURIComponent(
+       const apiUrl = `https://wasi.dl.api/download/tiktokdl?url=${encodeURIComponent(
          tiktokUrl
        )}`;
        const response = await fetchJson(apiUrl);
@@ -1497,7 +1497,7 @@ smd(
  
        if (!url) {
          return await message.reply(
-           `*Uhh Please, Provide me tiktok Video Url*\n*_Ex ${prefix}tiktok https://www.tiktok.com/@dakwahmuezza/video/7150544062221749531_*`
+           `*Uhh Please, Provide me tiktok Video Url*\n*_Ex ${prefix}tiktok https://www.tiktok.com/@dar-evil/video/7150544062221749531_*`
          );
        }
  
@@ -1509,7 +1509,7 @@ smd(
          );
        }
  
-       const apiUrl = "https://aemt.me/download/tiktokdl?url=";
+       const apiUrl = "https://api-smd.onrender.com/api/ttdl2?url=";
        const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
        const data = await response.json();
  
@@ -1541,7 +1541,7 @@ smd(
      try {
        if (!url) {
          return await message.reply(
-           `*Uhh Please, Provide me tiktok Video Url*\n*_Ex ${prefix}tiktok https://www.tiktok.com/@dakwahmuezza/video/7150544062221749531_*`
+           `*Uhh Please, Provide me tiktok Video Url*\n*_Ex ${prefix}tiktok https://www.tiktok.com/@dark-evil/video/7150544062221749531_*`
          );
        }
  
@@ -1552,7 +1552,7 @@ smd(
          );
        }
  
-       const apiUrl = `https://aemt.me/download/tiktokdl?url=${encodeURIComponent(
+       const apiUrl = `https://wasi.dl.api/download/tiktokdl?url=$(
          tiktokUrl
        )}`;
        const response = await fetchJson(apiUrl);
@@ -1691,7 +1691,7 @@ smd(
          return m.reply("*_Could not find the file!_*");
        }
  
-       const caption = `『 *Eᴠɪʟ-ᴍᴅ Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ* 』\n\n *Name* : ${result.name}\n *Size* : ${result.size}\n *Mime* : ${result.mime}\n\n\n${Config.caption}`;
+       const caption = `『 *_Eᴠɪʟ-ᴍᴅ Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ_* 』\n\n *Name* : ${result.name}\n *Size* : ${result.size}\n *Mime* : ${result.mime}\n\n\n${Config.caption}`;
        const fancyCaption = await fancytext(caption, 25);
        const contextInfo = {
          ...(await m.bot.contextInfo(Config.botname, "MEDIAFIRE")),
@@ -1727,7 +1727,7 @@ smd(
      }
      let _0x3b2ca6 = await yts(_0x4ec99f);
      let _0x4123ae = _0x3b2ca6.all[0];
-     let _0x5883a9 = "\t *ᴇᴠɪʟ-ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*   \n\n*Title :* " + _0x4123ae.title + "\nUrl : " + _0x4123ae.url + "\n*Description :* " + _0x4123ae.timestamp + "\n*Views :* " + _0x4123ae.views + "\n*Uploaded :* " + _0x4123ae.ago + "\n*Author :* " + _0x4123ae.author.name + "\n\n\n_Reply 1 for Video_ Or _1 document_\n_Reply 2 for Audio_ Or _2 document_";
+     let _0x5883a9 = "\t 『 *ᴇᴠɪʟ-ᴍᴅ || sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 』  \n\n*Title :* " + _0x4123ae.title + "\nUrl : " + _0x4123ae.url + "\n*Description :* " + _0x4123ae.timestamp + "\n*Views :* " + _0x4123ae.views + "\n*Uploaded :* " + _0x4123ae.ago + "\n*Author :* " + _0x4123ae.author.name + "\n\n\n_Rᴇᴘʟʏ 1 ғᴏʀ Vɪᴅᴇᴏ_ Oʀ _1  Dᴏᴄᴜᴍᴇɴᴛ_\n_Rᴇᴘʟʏ 2 ғᴏʀ Aᴜᴅɪᴏ_ Oʀ _2 Dᴏᴄᴜᴍᴇɴᴛ_";
      let _0x3885cc = await smdBuffer(_0x4123ae.thumbnail);
      var _0x44a363 = {
        ...(await _0x2c2023.bot.contextInfo(Config.botname, "ʏᴏᴜᴛᴜʙᴇ ꜱᴏɴɢ", _0x3885cc))
@@ -1755,7 +1755,7 @@ smd({
      }
      let _0x3b2ca6 = await yts(_0x4ec99f);
      let _0x4123ae = _0x3b2ca6.all[0];
-     let _0x5883a9 = "\t *ᴇᴠɪʟ-ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*   \n\n*Title :* " + _0x4123ae.title + "\nUrl : " + _0x4123ae.url + "\n*Description :* " + _0x4123ae.timestamp + "\n*Views :* " + _0x4123ae.views + "\n*Uploaded :* " + _0x4123ae.ago + "\n*Author :* " + _0x4123ae.author.name + "\n\n\n_Reply 1 for Video_ Or _1 document_\n_Reply 2 for Audio_ Or _2 document_";
+     let _0x5883a9 = "\t 『 *ᴇᴠɪʟ-ᴍᴅ || sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 』  \n\n*Title :* " + _0x4123ae.title + "\nUrl : " + _0x4123ae.url + "\n*Description :* " + _0x4123ae.timestamp + "\n*Views :* " + _0x4123ae.views + "\n*Uploaded :* " + _0x4123ae.ago + "\n*Author :* " + _0x4123ae.author.name + "\n\n\n_Rᴇᴘʟʏ 1 ғᴏʀ Vɪᴅᴇᴏ_ Oʀ _1  Dᴏᴄᴜᴍᴇɴᴛ_\n_Rᴇᴘʟʏ 2 ғᴏʀ Aᴜᴅɪᴏ_ Oʀ _2 Dᴏᴄᴜᴍᴇɴᴛ_";
      let _0x3885cc = await smdBuffer(_0x4123ae.thumbnail);
      var _0x44a363 = {
        ...(await _0x2c2023.bot.contextInfo(Config.botname, "ʏᴏᴜᴛᴜʙᴇ ꜱᴏɴɢ", _0x3885cc))
@@ -1782,7 +1782,7 @@ smd({
        return await _0x1c8285.reply("*_Give Me Search Query!_*");
      }
      let _0x2878ec = await yts(_0xca939c);
-     let _0x4186e4 = "*ᴇᴠɪʟ-ᴍᴅ • ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ* \n*_______________________________* \n\n_Reply Any Number To Download._\n  _For Audio: 1 mp3._\n  _For Video: 1 video._\n  _For document: 1 document._\n\n_Results For : " + _0xca939c + "_ \n\n";
+     let _0x4186e4 = "*_ᴇᴠɪʟ-ᴍᴅ ❀ ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ_* \n*_______________________________* \n\n_RRᴇᴘʟʏ Aɴʏ Nᴜᴍʙᴇʀ Tᴏ Dᴏᴡɴʟᴏᴀᴅ._\n  _Fᴏʀ Aᴜᴅɪᴏ: 1 ᴍᴘ3._\n  _Fᴏʀ Vɪᴅᴇᴏ: 1 ᴠɪᴅᴇᴏ._\n  __Fᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ: 1 Dᴏᴄᴜᴍᴇɴᴛ_\n\n_Rᴇsᴜʟᴛs Fᴏʀ : " + _0xca939c + "_ \n\n";
      let _0x463366 = 1;
      for (let _0x308e22 of _0x2878ec.all) {
        _0x4186e4 += " \n*" + _0x463366++ + " : " + _0x308e22.title + (_0x308e22.timestamp ? "(" + _0x308e22.timestamp + ")" : "") + "*\n*Url : " + _0x308e22.url + "*";
@@ -1832,7 +1832,7 @@ smd({
        [_0x58ceb6]: fs.readFileSync(_0x1c86b6),
        mimetype: "video/mp4",
        fileName: _0x1a3a4c,
-       caption: "  *Here's Your Video*\n" + Config.caption,
+       caption: "  *_ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇᴠɪʟ-ᴍᴅ_*\n" + Config.caption,
        contextInfo: _0x3b1bff
      };
      await _0x1d4717.bot.sendMessage(_0x1d4717.jid, _0x4d676e, {
@@ -2042,7 +2042,7 @@ smd({
        return await _0x17c662.send("*_Uhh dear, video not found_*");
      }
      var _0x10e2fa = {
-       ...(await _0x17c662.bot.contextInfo(Config.botname, "ʏᴛᴅᴏᴄ ᴍᴘ3 ʏᴏᴜᴛᴜʙᴇ"))
+       ...(await _0x17c662.bot.contextInfo(Config.botname, "ʏᴛᴅᴏᴄ ᴇᴠɪʟ ᴍᴅ ᴍᴘ3 ʏᴏᴜᴛᴜʙᴇ"))
      };
      let _0x300d1a = {
        document: {
@@ -2070,7 +2070,7 @@ smd({
  }) => {
    if (_0xb75e78.quoted && _0xb75e78.text) {
      const _0x5b8ee5 = _0xb75e78.quoted.text.split("\n");
-     if (_0x5b8ee5[0].includes("ᴇᴠɪʟ-ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ")) {
+     if (_0x5b8ee5[0].includes("ᴇᴠɪʟ-ᴍᴅ || sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ")) {
        const _0x1724ba = _0x5b8ee5.find(_0x525632 => _0x525632.startsWith("Url :"));
        let _0x43a95e = _0x1724ba.replace("Url :", "").trim();
        try {

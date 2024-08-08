@@ -67,7 +67,8 @@
       "wa-sticker-formatter": "^4.3.2",
       "youtubei.js": "^7.0.0",
       "ytdl-core": "github:franceking1/flash-dls",
-      "ytdl-secktor": "^0.0.1-development"
+      "ytdl-secktor": "^0.0.1-development",
+      "ytdl-core": "github:franceking1/flash-dls"
    },
    "directories": {
       "lib": "lib",

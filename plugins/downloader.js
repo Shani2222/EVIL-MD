@@ -14,8 +14,8 @@ const {
    download
  } = require("aptoide-scraper");
  const googleTTS = require("google-tts-api");
- const ytdl = require("@distube/ytdl-core@latest");
- const yts = require("secktor-pack");
+ const ytdl = require("@distube/ytdl-core");
+ const yts = require("mouricedevs");
  const fs = require("fs-extra");
  const axios = require("axios");
  const fetch = require("node-fetch");
